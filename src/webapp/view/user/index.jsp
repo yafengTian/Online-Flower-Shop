@@ -27,15 +27,16 @@
         <div id="menu">
             <ul>
                 <li class="selected"><a href="index.jsp">首页</a></li>
-                <li><a href="about.html">全部鲜花</a></li>
-                <li><a href="about.html">新品上市</a></li>
-                <li><a href="category.html">热销</a></li>
+                <li><a href="/view/user/allflower.jsp">全部鲜花</a></li>
+                <li><a href="/view/user/specials.jsp">今日特色</a></li>
+                <li><a href="/view/user/newflower.jsp">新品上市</a></li>
+                <li><a href="/view/user/hotflower.jsp">热销</a></li>
                 <li><a href="/view/user/login.jsp">登录</a></li>
                 <li>
                     <form>
                         <tr>
-                            <td><input type="text" name="search" style="width: 200px;height: 26px;border-radius: 5px;background: #DFDFDF;opacity:0.5;"></td>
-                            <td><input type="submit" value="搜索" style="height: 26px;width: 60px;border-radius: 5px;background: #DFDFDF;opacity:0.5;"></td>
+                            <td><input type="text" name="search" style="width: 150px;height: 26px;border-radius: 5px;background: #DFDFDF;opacity:0.5;"></td>
+                            <td><input type="submit" value="搜索" style="height: 26px;width: 50px;border-radius: 5px;background: #DFDFDF;opacity:0.5;"></td>
                         </tr>
                     </form>
                 </li>
@@ -51,17 +52,16 @@
         <div class="left_content">
 
             <div class="title"><span class="title_icon"><img src="/images/bullet1.gif" alt="" title="" /></span>Featured products</div>
-
             <div class="feat_prod_box">
 
-                <div class="prod_img"><a href="details.html"><img src="/images/prod1.gif" alt="" title="" border="0" /></a></div>
+                <div class="prod_img"><a href="/view/user/detail.jsp"><img src="/images/prod1.gif" alt="" title="" border="0" /></a></div>
 
                 <div class="prod_det_box">
                     <div class="box_top"></div>
                     <div class="box_center">
                         <div class="prod_title">Product name</div>
                         <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                        <a href="details.html" class="more">- more details -</a>
+                        <a href="/view/user/detail.jsp" class="more">- more details -</a>
                         <div class="clear"></div>
                     </div>
 
@@ -69,18 +69,16 @@
                 </div>
                 <div class="clear"></div>
             </div>
-
-
             <div class="feat_prod_box">
 
-                <div class="prod_img"><a href="details.html"><img src="/images/prod2.gif" alt="" title="" border="0" /></a></div>
+                <div class="prod_img"><a href="/view/user/detail.jsp"><img src="/images/prod1.gif" alt="" title="" border="0" /></a></div>
 
                 <div class="prod_det_box">
                     <div class="box_top"></div>
                     <div class="box_center">
                         <div class="prod_title">Product name</div>
                         <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                        <a href="details.html" class="more">- more details -</a>
+                        <a href="/view/user/detail.jsp" class="more">- more details -</a>
                         <div class="clear"></div>
                     </div>
 
@@ -88,34 +86,65 @@
                 </div>
                 <div class="clear"></div>
             </div>
+            <div class="feat_prod_box">
 
+                <div class="prod_img"><a href="/view/user/detail.jsp"><img src="/images/prod1.gif" alt="" title="" border="0" /></a></div>
 
+                <div class="prod_det_box">
+                    <div class="box_top"></div>
+                    <div class="box_center">
+                        <div class="prod_title">Product name</div>
+                        <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <a href="/view/user/detail.jsp" class="more">- more details -</a>
+                        <div class="clear"></div>
+                    </div>
 
-            <div class="title"><span class="title_icon"><img src="/images/bullet2.gif" alt="" title="" /></span>New products</div>
+                    <div class="box_bottom"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="feat_prod_box">
+
+                <div class="prod_img"><a href="/view/user/detail.jsp"><img src="/images/prod1.gif" alt="" title="" border="0" /></a></div>
+
+                <div class="prod_det_box">
+                    <div class="box_top"></div>
+                    <div class="box_center">
+                        <div class="prod_title">Product name</div>
+                        <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <a href="/view/user/detail.jsp" class="more">- more details -</a>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="box_bottom"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="title"><span class="title_icon"><img src="images/bullet2.gif" alt="" title="" /></span>New products</div>
 
             <div class="new_products">
 
                 <div class="new_prod_box">
                     <a href="details.html">product name</a>
                     <div class="new_prod_bg">
-                        <span class="new_icon"><img src="/images/new_icon.gif" alt="" title="" /></span>
-                        <a href="details.html"><img src="/images/thumb1.gif" alt="" title="" class="thumb" border="0" /></a>
+                        <span class="new_icon"><img src="images/new_icon.gif" alt="" title="" /></span>
+                        <a href="details.html"><img src="images/thumb1.gif" alt="" title="" class="thumb" border="0" /></a>
                     </div>
                 </div>
 
                 <div class="new_prod_box">
                     <a href="details.html">product name</a>
                     <div class="new_prod_bg">
-                        <span class="new_icon"><img src="/images/new_icon.gif" alt="" title="" /></span>
-                        <a href="details.html"><img src="/images/thumb2.gif" alt="" title="" class="thumb" border="0" /></a>
+                        <span class="new_icon"><img src="images/new_icon.gif" alt="" title="" /></span>
+                        <a href="details.html"><img src="images/thumb2.gif" alt="" title="" class="thumb" border="0" /></a>
                     </div>
                 </div>
 
                 <div class="new_prod_box">
                     <a href="details.html">product name</a>
                     <div class="new_prod_bg">
-                        <span class="new_icon"><img src="/images/new_icon.gif" alt="" title="" /></span>
-                        <a href="details.html"><img src="/images/thumb3.gif" alt="" title="" class="thumb" border="0" /></a>
+                        <span class="new_icon"><img src="images/new_icon.gif" alt="" title="" /></span>
+                        <a href="details.html"><img src="images/thumb3.gif" alt="" title="" class="thumb" border="0" /></a>
                     </div>
                 </div>
 
@@ -126,14 +155,23 @@
         </div><!--end of left content-->
 
         <div class="right_content">
+            <div class="languages_box">
+                <span class="red">Languages:</span>
+                <a href="#"><img src="/images/gb.gif" alt="" title="" border="0" /></a>
+                <a href="#"><img src="/images/fr.gif" alt="" title="" border="0" /></a>
+                <a href="#"><img src="/images/de.gif" alt="" title="" border="0" /></a>
+            </div>
+            <div class="currency">
+                <span class="red">Currency: </span>
+                <a href="#">GBP</a>
+                <a href="#">EUR</a>
+                <a href="#"><strong>USD</strong></a>
+            </div>
             <div class="cart">
                 <div class="title"><span class="title_icon"><img src="/images/cart.gif" alt="" title="" /></span>我的购物车</div>
                &nbsp;&nbsp;&nbsp;
                 <div class="title"><span class="title_icon"><img src="/images/call.jpg" alt="" title="" /></span>联系我们</div>
             </div>
-
-
-
 
             <div class="title"><span class="title_icon"><img src="/images/bullet3.gif" alt="" title="" /></span>本店介绍</div>
             <div class="about">
@@ -151,26 +189,26 @@
 
                 <div class="title"><span class="title_icon"><img src="/images/bullet4.gif" alt="" title="" /></span>今日特价</div>
                 <div class="new_prod_box">
-                    <a href="details.html">product name</a>
+                    <a href="/view/user/detail.jsp">product name</a>
                     <div class="new_prod_bg">
                         <span class="new_icon"><img src="/images/promo_icon.gif" alt="" title="" /></span>
-                        <a href="details.html"><img src="/images/thumb1.gif" alt="" title="" class="thumb" border="0" /></a>
+                        <a href="/view/user/detail.jsp"><img src="/images/thumb1.gif" alt="" title="" class="thumb" border="0" /></a>
                     </div>
                 </div>
 
                 <div class="new_prod_box">
-                    <a href="details.html">product name</a>
+                    <a href="/view/user/detail.jsp">product name</a>
                     <div class="new_prod_bg">
                         <span class="new_icon"><img src="/images/promo_icon.gif" alt="" title="" /></span>
-                        <a href="details.html"><img src="/images/thumb2.gif" alt="" title="" class="thumb" border="0" /></a>
+                        <a href="/view/user/detail.jsp"><img src="/images/thumb2.gif" alt="" title="" class="thumb" border="0" /></a>
                     </div>
                 </div>
 
                 <div class="new_prod_box">
-                    <a href="details.html">product name</a>
+                    <a href="/view/user/detail.jsp">product name</a>
                     <div class="new_prod_bg">
                         <span class="new_icon"><img src="/images/promo_icon.gif" alt="" title="" /></span>
-                        <a href="details.html"><img src="/images/thumb3.gif" alt="" title="" class="thumb" border="0" /></a>
+                        <a href="/view/user/detail.jsp"><img src="/images/thumb3.gif" alt="" title="" class="thumb" border="0" /></a>
                     </div>
                 </div>
 

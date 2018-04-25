@@ -5,7 +5,9 @@ package com.springmvc.controller;/*
  *下午11:25
  */
 
+import com.springmvc.pojo.Flower;
 import com.springmvc.pojo.User;
+import com.springmvc.service.Interface.FlowerService;
 import com.springmvc.service.Interface.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -15,14 +17,22 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.Date;
+import java.util.List;
 
 @Controller
 public class LoginController {
     @Autowired
     private UserService userService;
+    @Autowired
+    private FlowerService flowerService;
     @RequestMapping("/")
-    public String index(){
-        return "index";
+    public ModelAndView index(){
+        ModelAndView modelAndView=new ModelAndView();
+        List<Flower> flowers;
+       flowers=flowerService.showAllFlower();
+       modelAndView.addObject("flowers",flowers);
+       modelAndView.setViewName("index");
+        return modelAndView;
     }
     /*
     * user login
@@ -43,17 +53,14 @@ public class LoginController {
         }
         return modelAndView;
     }
-    @RequestMapping("/Test")
-    public String test(){
-        return "test";
 
-    }
     @RequestMapping("/Register")
     public String register(User user){
         if(user!=null){
             userService.userRegister(user);
             System.out.println(user.getId());
+            return "login";
         }
-        return "login";
+        return "register";
     }
 }
