@@ -27,8 +27,8 @@
         <div class="logo"><a href="index.html"><img src="/images/logo.gif" alt="" title="" border="0" /></a></div>
         <div id="menu">
             <ul>
-                <li class="selected"><a href="index.jsp">首页</a></li>
-                <li><a href="/view/user/allflower.jsp">全部鲜花</a></li>
+                <li class="selected"><a href="/">首页</a></li>
+                <li><a href="/AllFlowers">全部鲜花</a></li>
                 <li><a href="/view/user/specials.jsp">今日特色</a></li>
                 <li><a href="/view/user/newflower.jsp">新品上市</a></li>
                 <li><a href="/view/user/hotflower.jsp">热销</a></li>
@@ -51,10 +51,7 @@
 
     <div class="center_content">
         <div class="left_content">
-            <div class="crumb_nav">
-                <a href="index.html">home</a> &gt;&gt; product name
-            </div>
-            <div class="title"><span class="title_icon"><img src="/images/bullet1.gif" alt="" title="" /></span>Product name</div>
+            <div class="title"><span class="title_icon"><img src="/images/bullet1.gif" alt="" title="" /></span>${flower.flower_name}</div>
 
             <div class="feat_prod_box_details">
 
@@ -66,15 +63,16 @@
                 <div class="prod_det_box">
                     <div class="box_top"></div>
                     <div class="box_center">
-                        <div class="prod_title">Details</div>
-                        <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.<br />
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.                    </p>
-                        <div class="price"><strong>PRICE:</strong> <span class="red">100 $</span></div>
-                        <div class="price"><strong>COLORS:</strong>
+                        <p class="details">
+                        ${flower.description}
+                        </p>
+                        <div class="price"><strong>价格:</strong> <span class="red">${flower.price} $</span></div>
+                        <div class="price"><strong>颜色:</strong>
                             <span class="colors"><img src="/images/color1.gif" alt="" title="" border="0" /></span>
                             <span class="colors"><img src="/images/color2.gif" alt="" title="" border="0" /></span>
                             <span class="colors"><img src="/images/color3.gif" alt="" title="" border="0" /></span>                    </div>
-                        <a href="details.html" class="more"><img src="/images/order_now.gif" alt="" title="" border="0" /></a>
+                        <a href="/ShopList/${flower.id}" class="more"><button style="background:#FF3333;border-radius: 5px">购买</button></a>
+                        <a href="/AddCar/${flower.id}" class="more"><button style="background:#FF3333;border-radius: 5px">加入购物车</button></a>
                         <div class="clear"></div>
                     </div>
 
@@ -87,8 +85,8 @@
             <div id="demo" class="demolayout">
 
                 <ul id="demo-nav" class="demolayout">
-                    <li><a class="active" href="#tab1">More details</a></li>
-                    <li><a class="" href="#tab2">Related Products</a></li>
+                    <li><a class="active" href="#tab1">更多</a></li>
+                    <li><a class="" href="#tab2">可能喜欢</a></li>
                 </ul>
 
                 <div class="tabs-container">
@@ -178,9 +176,11 @@
                 <a href="#"><strong>USD</strong></a>
             </div>
             <div class="cart">
-                <div class="title"><span class="title_icon"><img src="/images/cart.gif" alt="" title="" /></span>我的购物车</div>
+                <div class="title"><span class="title_icon"><img src="/images/cart.gif" alt="" title="" /></span><a href="<%=session.getAttribute("user")==null?"#":"/ShowFlowerFromCar"%>">我的购物车</a></div>
                 &nbsp;&nbsp;&nbsp;
                 <div class="title"><span class="title_icon"><img src="/images/call.jpg" alt="" title="" /></span>联系我们</div>
+                <div class="title"><span class="title_icon"><img src="/images/user.png" alt="" title="" /></span>个人中心</div>
+
             </div>
 
             <div class="title"><span class="title_icon"><img src="/images/bullet3.gif" alt="" title="" /></span>本店介绍</div>

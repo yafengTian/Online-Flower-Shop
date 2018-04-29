@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: yafeng
@@ -26,8 +27,8 @@
         <div class="logo"><a href="index.html"><img src="/images/logo.gif" alt="" title="" border="0" /></a></div>
         <div id="menu">
             <ul>
-                <li class="selected"><a href="index.jsp">首页</a></li>
-                <li><a href="/view/user/allflower.jsp">全部鲜花</a></li>
+                <li class="selected"><a href="/">首页</a></li>
+                <li><a href="/AllFlowers">全部鲜花</a></li>
                 <li><a href="/view/user/specials.jsp">今日特色</a></li>
                 <li><a href="/view/user/newflower.jsp">新品上市</a></li>
                 <li><a href="/view/user/hotflower.jsp">热销</a></li>
@@ -50,18 +51,18 @@
 
     <div class="center_content">
         <div class="left_content">
-
-            <div class="title"><span class="title_icon"><img src="/images/bullet1.gif" alt="" title="" /></span>Featured products</div>
+            <div class="title"><span class="title_icon"><img src="/images/bullet1.gif" alt="" title="" /></span>本店供有</div>
+            <c:forEach items="${flowers}" var="flower">
             <div class="feat_prod_box">
 
-                <div class="prod_img"><a href="/view/user/detail.jsp"><img src="/images/prod1.gif" alt="" title="" border="0" /></a></div>
+                <div class="prod_img"><a href="/Detail/${flower.id}"/><img src="/images/prod1.gif" alt="" title="" border="0" /></a></div>
 
                 <div class="prod_det_box">
                     <div class="box_top"></div>
                     <div class="box_center">
-                        <div class="prod_title">Product name</div>
-                        <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                        <a href="/view/user/detail.jsp" class="more">- more details -</a>
+                        <div class="prod_title"><c:out value="${flower.flower_name}"/></div>
+                        <p class="details"><c:out value="${flower.description}"/></p>
+                        <a href="/Detail/${flower.id}" class="more"/>详情</a>
                         <div class="clear"></div>
                     </div>
 
@@ -69,82 +70,34 @@
                 </div>
                 <div class="clear"></div>
             </div>
-            <div class="feat_prod_box">
+            </c:forEach>
 
-                <div class="prod_img"><a href="/view/user/detail.jsp"><img src="/images/prod1.gif" alt="" title="" border="0" /></a></div>
 
-                <div class="prod_det_box">
-                    <div class="box_top"></div>
-                    <div class="box_center">
-                        <div class="prod_title">Product name</div>
-                        <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                        <a href="/view/user/detail.jsp" class="more">- more details -</a>
-                        <div class="clear"></div>
-                    </div>
-
-                    <div class="box_bottom"></div>
-                </div>
-                <div class="clear"></div>
-            </div>
-            <div class="feat_prod_box">
-
-                <div class="prod_img"><a href="/view/user/detail.jsp"><img src="/images/prod1.gif" alt="" title="" border="0" /></a></div>
-
-                <div class="prod_det_box">
-                    <div class="box_top"></div>
-                    <div class="box_center">
-                        <div class="prod_title">Product name</div>
-                        <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                        <a href="/view/user/detail.jsp" class="more">- more details -</a>
-                        <div class="clear"></div>
-                    </div>
-
-                    <div class="box_bottom"></div>
-                </div>
-                <div class="clear"></div>
-            </div>
-            <div class="feat_prod_box">
-
-                <div class="prod_img"><a href="/view/user/detail.jsp"><img src="/images/prod1.gif" alt="" title="" border="0" /></a></div>
-
-                <div class="prod_det_box">
-                    <div class="box_top"></div>
-                    <div class="box_center">
-                        <div class="prod_title">Product name</div>
-                        <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                        <a href="/view/user/detail.jsp" class="more">- more details -</a>
-                        <div class="clear"></div>
-                    </div>
-
-                    <div class="box_bottom"></div>
-                </div>
-                <div class="clear"></div>
-            </div>
-            <div class="title"><span class="title_icon"><img src="images/bullet2.gif" alt="" title="" /></span>New products</div>
+            <div class="title"><span class="title_icon"><img src="/images/bullet2.gif" alt="" title="" /></span>新品上市</div>
 
             <div class="new_products">
 
                 <div class="new_prod_box">
-                    <a href="details.html">product name</a>
+                    <a href="/view/user/detail.jsp">product name</a>
                     <div class="new_prod_bg">
-                        <span class="new_icon"><img src="images/new_icon.gif" alt="" title="" /></span>
-                        <a href="details.html"><img src="images/thumb1.gif" alt="" title="" class="thumb" border="0" /></a>
+                        <span class="new_icon"><img src="/images/new_icon.gif" alt="" title="" /></span>
+                        <a href="/view/user/detail.jsp"><img src="/images/thumb1.gif" alt="" title="" class="thumb" border="0" /></a>
                     </div>
                 </div>
 
                 <div class="new_prod_box">
-                    <a href="details.html">product name</a>
+                    <a href="/view/user/detail.jsp">product name</a>
                     <div class="new_prod_bg">
-                        <span class="new_icon"><img src="images/new_icon.gif" alt="" title="" /></span>
-                        <a href="details.html"><img src="images/thumb2.gif" alt="" title="" class="thumb" border="0" /></a>
+                        <span class="new_icon"><img src="/images/new_icon.gif" alt="" title="" /></span>
+                        <a href="/view/user/detail.jsp"><img src="/images/thumb2.gif" alt="" title="" class="thumb" border="0" /></a>
                     </div>
                 </div>
 
                 <div class="new_prod_box">
-                    <a href="details.html">product name</a>
+                    <a href="/view/user/detail.jsp">product name</a>
                     <div class="new_prod_bg">
-                        <span class="new_icon"><img src="images/new_icon.gif" alt="" title="" /></span>
-                        <a href="details.html"><img src="images/thumb3.gif" alt="" title="" class="thumb" border="0" /></a>
+                        <span class="new_icon"><img src="/images/new_icon.gif" alt="" title="" /></span>
+                        <a href="/view/user/detail.jsp"><img src="/images/thumb3.gif" alt="" title="" class="thumb" border="0" /></a>
                     </div>
                 </div>
 
@@ -168,9 +121,11 @@
                 <a href="#"><strong>USD</strong></a>
             </div>
             <div class="cart">
-                <div class="title"><span class="title_icon"><img src="/images/cart.gif" alt="" title="" /></span>我的购物车</div>
+                <div class="title"><span class="title_icon"><img src="/images/cart.gif" alt="" title="" /></span><a href="<%=session.getAttribute("user")==null?"#":"/ShowFlowerFromCar"%>">我的购物车</a></div>
                &nbsp;&nbsp;&nbsp;
                 <div class="title"><span class="title_icon"><img src="/images/call.jpg" alt="" title="" /></span>联系我们</div>
+                <div class="title"><span class="title_icon"><img src="/images/user.png" alt="" title="" /></span>个人中心</div>
+
             </div>
 
             <div class="title"><span class="title_icon"><img src="/images/bullet3.gif" alt="" title="" /></span>本店介绍</div>

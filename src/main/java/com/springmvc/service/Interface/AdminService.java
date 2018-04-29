@@ -7,7 +7,17 @@ package com.springmvc.service.Interface;/*
 
 
 import com.springmvc.pojo.Admin;
+import com.springmvc.pojo.Flower;
 
 public interface AdminService {
     public Admin admin(Admin admin);
+    /*
+    * admin delete flower
+    * */
+    public void delete(int id);
+
+    /*
+    * admin add flower
+    * */
+    public void add(Flower flower);
 }

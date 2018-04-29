@@ -24,7 +24,7 @@
                 <label>
                     <input type="password" name="password" id="userpwd" class="txt_input" placeholder="Password">
                 </label>
-                <p class="forgot"><a href="javascript:void(0);">忘记密码?</a></p>
+                <p class="forgot"><a href="/view/user/register.jsp">去注册?</a><a href="javascript:void(0);">忘记密码?</a></p>
                 <div class="rem_sub">
                     <div class="rem_sub_l">
                         <input type="checkbox" name="checkbox" id="save_me">

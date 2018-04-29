@@ -15,7 +15,7 @@
 
     <bean id="datasource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/experiment"/>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/experiment?characterEncoding=utf-8"/>
         <property name="user" value="root"/>
         <property name="password" value="tyf0920"/>
         <property name="acquireIncrement" value="3"/>

@@ -6,4 +6,10 @@
     <select id="admin" resultType="com.springmvc.pojo.Admin">
         select * from Admin where admin_id=#{admin_id} and password=#{password}
     </select>
+    <delete id="delete" parameterType="int">
+        delete from Flower where id=#{id}
+    </delete>
+    <insert id="add" parameterType="com.springmvc.pojo.Flower">
+        insert into Flower(flower_name,catagory,description,price) values (#{flower_name},#{catagory},#{description},#{price})
+    </insert>
 </mapper>

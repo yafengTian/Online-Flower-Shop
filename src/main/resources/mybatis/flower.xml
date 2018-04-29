@@ -6,4 +6,39 @@
     <select id="showAllFlowers" resultType="com.springmvc.pojo.Flower" >
         select * from Flower
     </select>
+
+    <select id="findFlowerById" parameterType="int" resultType="com.springmvc.pojo.Flower">
+        select * from Flower where id=#{id}
+    </select>
+    <insert id="createShopList" useGeneratedKeys="true" keyProperty="id">
+        insert into Shop_list(total_money,flower_id,shop_time,user_id,number,address)
+        values (#{total_money},#{flower_id},#{date},#{userId},#{count},#{address})
+    </insert>
+    <insert id="addShopCar" keyProperty="id" useGeneratedKeys="true">
+        insert into Shop_car(user_id,flower_id) values (#{userId},#{flowerId});
+    </insert>
+
+    <select id="showFlowerFromCar" resultType="com.springmvc.pojo.Flower">
+        SELECT f.id,f.flower_name,f.catagory,f.description,f.price FROM Shop_car s,Flower f where s.flower_id=f.id and s.is_pay_for=0 and s.user_id=#{userId}
+    </select>
+
+    <update id="buy" useGeneratedKeys="true" keyProperty="id">
+        update Shop_car set is_pay_for=1 where user_id=#{userId} and flower_id=#{flowerId}
+    </update>
+
+    <delete id="delete" parameterType="int">
+        delete from Shop_car where user_id=#{userId} and flower_id=#{flowerId}
+    </delete>
 </mapper>
+<!--
+        CREATE TABLE Shop_list(
+        id int PRIMARY KEY auto_increment,
+        total_money DOUBLE,
+        flower_id int,
+        shop_time date,
+        user_id INT,
+        number int,
+        address varchar(255),
+        FOREIGN KEY (user_id) REFERENCES User(id),
+        FOREIGN KEY (flower_id) REFERENCES Flower(id)
+        );-->

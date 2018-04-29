@@ -7,6 +7,7 @@ package com.springmvc.service.impl;/*
 
 import com.springmvc.dao.AdminDao;
 import com.springmvc.pojo.Admin;
+import com.springmvc.pojo.Flower;
 import com.springmvc.service.Interface.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -20,5 +21,19 @@ public class AdminServiceImpl implements AdminService{
     }
     public Admin admin(Admin admin) {
         return adminDao.admin(admin);
+    }
+    /*
+    *
+    * admin delete flower
+    * */
+    public void delete(int id) {
+        adminDao.delete(id);
+    }
+
+    /*
+    * admin add flower
+    * */
+    public void add(Flower flower){
+        adminDao.add(flower);
     }
 }
