@@ -12,4 +12,13 @@
     <insert id="add" parameterType="com.springmvc.pojo.Flower">
         insert into Flower(flower_name,catagory,description,price) values (#{flower_name},#{catagory},#{description},#{price})
     </insert>
+
+    <select id="showAllUsers" resultType="com.springmvc.pojo.User">
+        select * from User
+    </select>
+
+
+    <delete id="deleteUser" parameterType="int">
+        delete from User where id=#{user_id}
+    </delete>
 </mapper>

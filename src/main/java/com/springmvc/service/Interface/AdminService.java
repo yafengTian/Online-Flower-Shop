@@ -8,6 +8,9 @@ package com.springmvc.service.Interface;/*
 
 import com.springmvc.pojo.Admin;
 import com.springmvc.pojo.Flower;
+import com.springmvc.pojo.User;
+
+import java.util.List;
 
 public interface AdminService {
     public Admin admin(Admin admin);
@@ -20,4 +23,14 @@ public interface AdminService {
     * admin add flower
     * */
     public void add(Flower flower);
+
+    /*
+    * show all users
+    * */
+    public List<User> showAllUsers();
+
+    /*
+    * delete user
+    * */
+    public void deleteUser(int user_id);
 }

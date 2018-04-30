@@ -71,7 +71,7 @@
                         <a href="#" target="right"> <i class="icon-desktop"> </i>产品类别<i class="arrow icon-angle-left"></i></a>
                     </li>
                     <li>
-                        <a href="/view/user/manager_user.jsp" target="right"> <i class="icon-desktop"> </i>用户管理 <i class="arrow icon-angle-left"></i></a>
+                        <a href="/ShowAllUsers" target="right"> <i class="icon-desktop"> </i>用户管理 <i class="arrow icon-angle-left"></i></a>
                         <ul class="sub-menu">
                         </ul>
                     </li>
@@ -81,9 +81,12 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="user.html" target="right"> <i class="icon-desktop"> </i>交易记录 <i class="arrow icon-angle-left"></i></a>
+                        <a href="#" target="right"> <i class="icon-desktop"> </i>交易记录 <i class="arrow icon-angle-left"></i></a>
                         <ul class="sub-menu">
                         </ul>
+                    </li>
+                    <li>
+                        <a href="" target="right"> <i class="icon-desktop"> </i>退出登录 <i class="arrow icon-angle-left"></i></a>
                     </li>
                 </ul>
 

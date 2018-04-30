@@ -16,6 +16,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.List;
+
 @Controller
 @RequestMapping("/")
 public class AdminController {
@@ -41,7 +43,9 @@ public class AdminController {
     @RequestMapping("/AddFlower")
     public ModelAndView add(Flower flower){
         ModelAndView modelAndView=new ModelAndView();
+        System.out.println(flower);
         if(flower!=null){
+            System.out.println(flower.getFlower_name()+"  "+flower.getDescription()+"  "+flower.getCatagory());
             adminService.add(flower);
             modelAndView.setViewName("manager_flower");
             modelAndView.addObject("message","添加成功");
@@ -50,8 +54,24 @@ public class AdminController {
         modelAndView.setViewName("add");
         modelAndView.addObject("message","添加失败");
         return modelAndView;
-
-
+    }
+    @RequestMapping("/ShowAllUsers")
+    public ModelAndView showAllUsers(){
+        ModelAndView modelAndView=new ModelAndView();
+        List<User> users=adminService.showAllUsers();
+            modelAndView.addObject("users",users);
+            modelAndView.setViewName("manager_user");
+            return modelAndView;
+    }
+    @RequestMapping("/DeleteUser/{user_id}")
+    public String deleteUser(@PathVariable String user_id){
+        if(user_id!=null){
+            int id=Integer.parseInt(user_id);
+            adminService.deleteUser(id);
+            System.out.println(id);
+            return "manager_user";
+        }
+        return "manager_user";
     }
 
 }

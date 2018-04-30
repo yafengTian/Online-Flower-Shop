@@ -36,7 +36,7 @@
             <div class="am-u-sm-12 am-u-md-6">
                 <div class="am-btn-toolbar">
                     <div class="am-btn-group am-btn-group-xs">
-                        <button type="button" style="height: 40px;width:60px;border-radius: 5px;background-color: #0a6999" class="am-btn am-btn-default" ><span class="am-icon-plus"></span><a href="/AddFlower">保存</a> </button>
+                        <input type="submit" style="height: 40px;width:60px;border-radius: 5px;background-color: #0a6999" class="am-btn am-btn-default" value="保存"/>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,11 @@
             <tr><span style="width: 60px;height: 50px">花名</span></tr>
             <tr><input type="text" name="flower_name" style="width: 700px;height: 40px;border-radius: 5px"/></tr><br><br>
             <tr><span style="width: 60px;height: 50px">分类</span></tr>
-            <tr><input type="text" name="catagory" style="width: 700px;height: 40px;border-radius: 5px"/></tr><br><br>
+            <tr><select name="catagory" id="catagory" style="height: 40px;width:700px ">
+                <option value="1" >鲜花</option>
+                <option value="2" >鲜花</option>
+                <option value="3" >鲜花</option>
+            </select></tr><br><br>
             <tr><span style="width: 60px;height: 50px">价格</span></tr>
             <tr><input type="text" name="price" style="width: 700px;height: 40px;border-radius: 5px"/></tr><br><br>
 

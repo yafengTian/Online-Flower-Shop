@@ -8,9 +8,12 @@ package com.springmvc.service.impl;/*
 import com.springmvc.dao.AdminDao;
 import com.springmvc.pojo.Admin;
 import com.springmvc.pojo.Flower;
+import com.springmvc.pojo.User;
 import com.springmvc.service.Interface.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class AdminServiceImpl implements AdminService{
@@ -35,5 +38,13 @@ public class AdminServiceImpl implements AdminService{
     * */
     public void add(Flower flower){
         adminDao.add(flower);
+    }
+
+    public List<User> showAllUsers() {
+        return adminDao.showAllUsers();
+    }
+
+    public void deleteUser(int user_id) {
+        adminDao.deleteUser(user_id);
     }
 }
