@@ -9,181 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/webapp/view/user/manager_flower.jsp" line="26" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20db3a0-b128-4ad9-b74a-f6917f678df8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/controller/FlowerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/css/amazeui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/css/buyConfirm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/css/carts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/css/checkOut.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/css/font/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/css/font/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/css/font/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/css/font/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/css/icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/css/plugins.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/css/public.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/+.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/-.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/123.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/LR_lunbo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/add_cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/back_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/ban_next_24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/ban_pre_24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/bottom_img01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/bottom_img02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/bottom_img03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/bottom_img04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/bottom_img05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/bottom_img06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/bottom_img07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/bottom_img08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/bottom_img09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/c.imgloading.312342643ad87085c2b962218229a968.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/cart_countdown.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/fixed_weixin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/floor_img10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/goods_img02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/goods_img03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/header_sprites1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/icon_dou.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/icon_sina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/icon_tencent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/icon_weixin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/index.supermarket.seckilling.bg-l-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/index.supermarket.seckilling.bg-m-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/index.supermarket.seckilling.bg-r-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/index_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/index_icons1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/mark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/mark1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/mark2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/meishi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/panic-text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/promise_img01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/promise_img02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/promise_img03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/promise_img04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/promise_img05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/shopping_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/slogan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/top_phone_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/wechat.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/wechat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/wechat_gaitubao_com_102x102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/weixin_big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/weixin_big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/xhw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/yck.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/yes_ok.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/zfb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/images/zxzf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/js/address_all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/js/amazeui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/js/base.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/js/buyConfirm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/js/carts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/js/checkout.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/js/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/js/html5shiv-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/js/jquery-1.11.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/js/jquery-1.11.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/js/jquery_cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/js/tuan.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/js/unslider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/myplugs/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/myplugs/css/calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/myplugs/css/checkbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/myplugs/css/checkbox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/myplugs/css/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/myplugs/css/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/myplugs/css/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/myplugs/css/icheck.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/myplugs/css/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/myplugs/css/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/myplugs/css/pageRecord.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/myplugs/css/table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/myplugs/css/tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/myplugs/js/crud.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/myplugs/js/plugs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/view/user/addflower.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/view/user/back.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/view/user/buy.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/view/user/car.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/view/user/manager_flower.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/view/user/manager_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/view/user/manager_user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/view/user/shop_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/view/user/success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/springmvc/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/springmvc/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/springmvc/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/springmvc/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/springmvc/dao/AdminDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/springmvc/dao/AdminDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/springmvc/dao/FlowerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/springmvc/dao/FlowerDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/springmvc/service/Interface/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/springmvc/service/Interface/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/springmvc/service/Interface/FlowerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/springmvc/service/Interface/FlowerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/springmvc/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/springmvc/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/springmvc/service/impl/FlowerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/springmvc/service/impl/FlowerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/mybatis/admin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/mybatis/admin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/mybatis/flower.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/mybatis/flower.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/spring/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/spring/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/view/user/allflower.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/view/user/allflower.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/view/user/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/view/user/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/view/user/hotflower.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/view/user/hotflower.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/view/user/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/view/user/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/view/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/view/user/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/view/user/newflower.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/view/user/newflower.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/view/user/specials.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/view/user/specials.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/view/user/userpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/view/user/userpage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springmvc/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springmvc/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springmvc/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/dao/AdminDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springmvc/dao/FlowerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/dao/FlowerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springmvc/service/Interface/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/service/Interface/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springmvc/service/Interface/FlowerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/service/Interface/FlowerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springmvc/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springmvc/service/impl/FlowerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/service/impl/FlowerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/admin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/admin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/flower.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/flower.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/view/user/allflower.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/view/user/allflower.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/view/user/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/view/user/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/view/user/hotflower.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/view/user/hotflower.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/view/user/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/view/user/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/view/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/view/user/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/view/user/newflower.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/view/user/newflower.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/view/user/specials.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/view/user/specials.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/view/user/userpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/view/user/userpage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springmvc/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springmvc/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springmvc/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springmvc/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springmvc/dao/AdminDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springmvc/dao/AdminDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springmvc/dao/FlowerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springmvc/dao/FlowerDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springmvc/service/Interface/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springmvc/service/Interface/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springmvc/service/Interface/FlowerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springmvc/service/Interface/FlowerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springmvc/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springmvc/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springmvc/service/impl/FlowerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springmvc/service/impl/FlowerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/admin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/admin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/flower.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/flower.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-config.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c20db3a0-b128-4ad9-b74a-f6917f678df8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -198,8 +24,8 @@
       <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springmvc/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+            <state relative-caret-position="190">
+              <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -965,7 +791,7 @@
       <workItem from="1524706060540" duration="2158000" />
       <workItem from="1524797055090" duration="24524000" />
       <workItem from="1524917863624" duration="11235000" />
-      <workItem from="1524979930400" duration="30084000" />
+      <workItem from="1524979930400" duration="30266000" />
     </task>
     <servers />
   </component>
@@ -1002,7 +828,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174032000" />
+    <option name="totallyTimeSpent" value="174214000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1039,7 +865,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2750197" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2750197" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -1481,8 +1307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springmvc/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        <state relative-caret-position="190">
+          <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
